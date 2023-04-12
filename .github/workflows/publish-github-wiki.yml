@@ -1,0 +1,6 @@
+- name: Publish Github Wiki
+  uses: nimblehq/publish-github-wiki-action@v1.0
+  with:
+    user_name: yorkshire-pudding
+    user_email: github@systemhorizons.co.uk
+    user_access_token: ${{ secrets.WIKI_ACTION_TOKEN }}
