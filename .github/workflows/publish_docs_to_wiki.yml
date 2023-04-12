@@ -13,8 +13,8 @@ env:
   USER_TOKEN: ${{ secrets.WIKI_ACTION_TOKEN }} # This is the repository secret
   USER_NAME: systemhorizons # Enter the username of your (bot) account
   USER_EMAIL: github@systemhorizons.co.uk # Enter the e-mail of your (bot) account
-  OWNER: ${{ systemhorizons }} # This is the repository owner
-  REPOSITORY_NAME: ${{ test-wiki-version-control }} # This is the repository name
+  OWNER: ${{ github.event.systemhorizons }} # This is the repository owner
+  REPOSITORY_NAME: ${{ github.event.test-wiki-version-control }} # This is the repository name
 
 jobs:
   publish_docs_to_wiki:
