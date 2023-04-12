@@ -1,23 +1,28 @@
-name: Publish docs to Wiki
+name: Deploy Wiki
 
-
-# Trigger this action only if there are changes pushed to the docs/** directory under the main branch
 on:
   push:
     paths:
-      - .github/wiki/** # This includes all sub folders
+      # Trigger only when wiki directory changes
+      - '.github/wiki/**'
     branches:
-      - main # This can be changed to any branch of your preference
-jobs:
-  publish_docs_to_wiki:
-    name: Publish docs to Wiki
-    runs-on: ubuntu-latest
-    steps:  
-      - name: Publish Github Wiki
-        uses: nimblehq/publish-github-wiki-action@v1.0
-        with:
-          user_name: yorkshire-pudding
-          user_email: github@systemhorizons.co.uk
-          user_access_token: ${{ secrets.WIKI_ACTION_TOKEN }}
+      # And only on master branch
+      - main
 
+jobs:
+  deploy-wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Push Wiki Changes
+      uses: Andrew-Chen-Wang/github-wiki-action@v3
+      env:
+        # Make sure you have that / at the end. We use rsync 
+        # WIKI_DIR's default is wiki/
+        WIKI_DIR: .github/wiki/
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_MAIL: github@systemhorizons.co.uk
+        GH_NAME: ${{ github.repository_owner }}
+        EXCLUDED_FILES: "a/ b.md"
 
