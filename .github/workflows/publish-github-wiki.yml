@@ -8,14 +8,6 @@ on:
       - wiki/** # This includes all sub folders
     branches:
       - main # This can be changed to any branch of your preference
-
-env:
-  USER_TOKEN: ${{ secrets.WIKI_ACTION_TOKEN }} # This is the repository secret
-  USER_NAME: yorkshire-pudding # Enter the username of your (bot) account
-  USER_EMAIL: github@systemhorizons.co.uk # Enter the e-mail of your (bot) account
-  OWNER: ${{ github.event.repository.owner.name }} # This is the repository owner
-  REPOSITORY_NAME: ${{ github.event.repository.name }} # This is the repository name
-
 jobs:
   publish_docs_to_wiki:
     name: Publish docs to Wiki
