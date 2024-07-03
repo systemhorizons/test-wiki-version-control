@@ -19,3 +19,4 @@ Here is another edit at 16:46
 2024-04-11 12:30
 Revert change of home page file name.
 Check with updated secret.
+Test without secret.
