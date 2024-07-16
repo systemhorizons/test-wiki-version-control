@@ -14,3 +14,4 @@ https://github.com/systemhorizons/test-wiki-version-control/blob/main/.github/wi
 ![Static Badge](https://img.shields.io/badge/os%20compatibility-555555?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/linux-blue?logo=linux&logoColor=white&style=flat-square)
 ![Static Badge](https://img.shields.io/badge/macOS-blue?logo=apple&logoColor=white&style=flat-square)
+![Static Badge](https://img.shields.io/badge/WSL2-blue?logo=linux&logoColor=white&style=flat-square)
