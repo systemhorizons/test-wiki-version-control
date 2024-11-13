@@ -10,6 +10,9 @@ export default defineConfig({
   themeConfig: {
     search: {
       provider: 'local'
-    }
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/systemhorizons/test-wiki-version-control' }
+    ],
   }
 })
