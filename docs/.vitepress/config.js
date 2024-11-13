@@ -6,10 +6,10 @@ export default {
   description: 'Just playing around.',
   base: "/test-wiki-version-control/",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]]
-  themeConfig: {
-    // Type is `DefaultTheme.Config`
-    search: {
-      provider: 'local'
-    }
-  }
+  // themeConfig: {
+  //   // Type is `DefaultTheme.Config`
+  //   search: {
+  //     provider: 'local'
+  //   }
+  // }
 }
