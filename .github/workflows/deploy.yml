@@ -40,7 +40,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: false # or pnpm / yarn
+          check-latest: true
+          # cache: false # or pnpm / yarn
           # cache-dependency-path: 'docs/.vitepress/package-lock.json'
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -51,7 +52,7 @@ jobs:
       - name: Install vitepress and build pages
         run: |
           cd docs
-          npm install -g vitepress@1.5.0
+          npm install vitepress
           npx vitepress build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
