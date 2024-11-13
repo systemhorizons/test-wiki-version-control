@@ -50,7 +50,7 @@ jobs:
       - name: Install vitepress and build pages
         run: |
           cd docs
-          npm add vitepress@1.5.0
+          npm ci vitepress@1.5.0
           npx vitepress build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
