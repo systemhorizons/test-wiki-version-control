@@ -3,7 +3,7 @@ on:
   push:
     paths:
       # Trigger only when wiki directory changes
-      - '.github/wiki/**'
+      - 'docs/**'
     branches: [main]
 concurrency:
   group: publish-wiki
@@ -17,4 +17,4 @@ jobs:
     - uses: actions/checkout@v3
     - uses: Andrew-Chen-Wang/github-wiki-action@v4
       with:
-        path: .github/wiki
+        path: docs
