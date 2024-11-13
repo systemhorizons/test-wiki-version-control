@@ -5,8 +5,11 @@ export default {
   title: 'Test Wiki Version',
   description: 'Just playing around.',
   base: "/test-wiki-version-control/",
-  head: [['link', { rel: 'icon', href: 'favicon.ico' }]]
-  // themeConfig: {
-  //   Type is `DefaultTheme.Config`
-  // }
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]]
+  themeConfig: {
+    // Type is `DefaultTheme.Config`
+    search: {
+      provider: 'local'
+    }
+  }
 }
