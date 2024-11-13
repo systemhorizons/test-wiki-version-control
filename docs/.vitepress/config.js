@@ -1,7 +1,6 @@
-import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
   // site-level options
   title: 'VitePress',
   description: 'Just playing around.',
@@ -10,4 +9,4 @@ export default defineConfig({
   // themeConfig: {
   //   Type is `DefaultTheme.Config`
   // }
-});
+}
