@@ -18,13 +18,13 @@ hero:
       link: /Home
 
 features:
-  - icon: 🐝
-    title: Command line tool
-    details: Manage your site on the command line
-  - icon: 🕵
-    title: Secure
-    details: Secure by design with powerful customisation
   - icon: ✏
     title: Content
     details: Focus on your content
+  - icon: 🕵
+    title: Secure
+    details: Secure by design with powerful customisation
+  - icon: 🐝
+    title: Command line tool
+    details: Manage your site on the command line
 ---
