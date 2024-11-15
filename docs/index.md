@@ -18,10 +18,13 @@ hero:
       link: /Home
 
 features:
-  - title: Issues
-    details: Where to report bugs or add feature requests.
-  - title: Install
-    details: How to install in the UI and on the command line
-  - title: Contribute
-    details: How you can help 
+  - icon: 🐝
+    title: Command line tool
+    details: Manage your site on the command line
+  - icon: 🕵
+    title: Secure
+    details: Secure by design with powerful customisation
+  - icon: ✏
+    title: Content
+    details: Focus on your content
 ---
