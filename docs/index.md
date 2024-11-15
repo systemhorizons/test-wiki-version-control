@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: System Horizons
       link: "https://www.systemhorizons.co.uk"
+    - theme: alt
+      text: Start reading
+      link: /Home
 
 features:
   - title: Issues

@@ -18,19 +18,20 @@ export default defineConfig({
       {
         text: 'Section Title A',
         items: [
-          { text: 'About', link: '/Content1.md' },
-          { text: 'Principles', link: '/Content2.md' },
+          { text: 'Home', link: '/Home.md' },
+          { text: 'Introduction', link: '/Introduction.md' },
 
         ]
       },
       {
         text: 'Section Title B',
         items: [
-          { text: 'Introduction', link: '/Introduction.md' },
-          { text: 'Home', link: '/Home.md' },
+          { text: 'About', link: '/Content1.md' },
+          { text: 'Principles', link: '/Content2.md' },
 
         ]
       }
+
     ]
   }
 })
