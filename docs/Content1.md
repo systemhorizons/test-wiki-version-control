@@ -1,22 +1,4 @@
-jkdsfjsl
-
-![Alt text](./Backdrop-Logo-Horizontal_Invert.svg)
-<img src="./Backdrop-Logo-Horizontal_Invert.svg" width=200, height=auto>
-
-https://github.com/systemhorizons/test-wiki-version-control/blob/main/.github/wiki/Backdrop-Logo-Horizontal_Invert.svg
-
-
-![Static Badge](https://img.shields.io/badge/php%20compatibility-8.2%20%7c%208.1%20%7c%208.0%20%7c%207.4-blue?logo=php&logoColor=white)
-
-![Static Badge](https://img.shields.io/badge/os%20compatibility-linux%20%7C%20macOS-blue?logo=linux&logoColor=white)
-![Static Badge](https://img.shields.io/badge/os%20compatibility-linux%20%7C%20macOS-blue)
-
-![Static Badge](https://img.shields.io/badge/os%20compatibility-555555?style=flat-square)
-![Static Badge](https://img.shields.io/badge/linux-blue?logo=linux&logoColor=white&style=flat-square)
-![Static Badge](https://img.shields.io/badge/macOS-blue?logo=apple&logoColor=white&style=flat-square)
-![Static Badge](https://img.shields.io/badge/WSL2-blue?logo=linux&logoColor=white&style=flat-square)
-
-Update
+# About
 
 Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System for building professional websites.
 Backdrop is a Content Management System. A CMS is a database driven website that allows people to log in, and with permission, allows them to edit nearly any page. Backdrop can be used to create almost any type of website. Use Backdrop CMS for everything from a single-administrator's personal blog site, to a complex, multi-role, business e-commerce platform. Backdrop is the perfect fit for comprehensive businesses, non-profit, educational, government or corporate websites.

@@ -14,5 +14,23 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/systemhorizons/test-wiki-version-control' }
     ],
+    sidebar: [
+      {
+        text: 'Section Title A',
+        items: [
+          { text: 'About', link: '/Content1.md' },
+          { text: 'Principles', link: '/Content2.md' },
+
+        ]
+      },
+      {
+        text: 'Section Title B',
+        items: [
+          { text: 'Introduction', link: '/Introduction.md' },
+          { text: 'Home', link: '/Home.md' },
+
+        ]
+      }
+    ]
   }
 })
